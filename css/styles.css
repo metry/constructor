@@ -1,0 +1,20 @@
+.container {
+	width: 1400px;
+	margin: 0 auto;
+}
+.container h1 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+#canvas {
+	float: left;
+	border: 1px solid black;
+	width: 800px;
+	height: 600px;
+	margin-right: 50px;
+}
+.options {
+	width: 500px;
+	float: right;
+	text-align: left;
+}

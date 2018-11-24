@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/isomer.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Конструктор</h1>
+		<div class="options">
+			Длинна: <input type="text" name="length" id="length" value="4" /><br/>*При длинне больше 5 (для 4ех ног) будут добавлены дополнительные опоры.<br/><br/>
+			Ширина: <input type="text" name="width" id="width" value="2" /><br/><br/>
+			Толщина столешницы: <input type="text" name="height" id="height" value="0.1" /><br/><br/>
+			Тип ног:
+			<select name="typeFoots" id="typeFoots">
+			  <option value="1">По краям (4/6 ног)</option>
+			  <option value="2">По центру 2 ноги (для примера)</option>
+			  <option value="3">2 ноги V</option>
+			  <option value="4">2 ноги X</option>
+			</select><br/><br/>
+			Высота ног: <input type="text" name="heightFoots" id="heightFoots" value="1.8" /><br/><br/>
+			<button id="start">Построить</button>
+		</div>
+		<canvas width="800" height="600" id="canvas"></canvas>	
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
